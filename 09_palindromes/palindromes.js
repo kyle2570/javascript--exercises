@@ -7,9 +7,6 @@ const palindromes = function (string) {
     const filtered = array.filter((char) => isLetterNumb(char));
     const sliced = slicedArray(filtered);
 
-    console.log(filtered);
-    console.log(sliced);
-    isLetterNumb(" ");
 
     for (let i = 0; i < sliced.length; i++) {
         if (filtered[i] != sliced[i]) {
